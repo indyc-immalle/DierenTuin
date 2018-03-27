@@ -40,7 +40,7 @@ namespace DierenInDeZoo
            
         }
 
-        public virtual void NaamDier()
+        public virtual void PrintNaamDier()
         {
             Console.WriteLine("das een dier");
         }

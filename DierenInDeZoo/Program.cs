@@ -13,7 +13,7 @@ namespace DierenInDeZoo
             Console.WriteLine("hinnik hinnik");
         }
 
-        public override void NaamDier()
+        public override void PrintNaamDier()
         {
             Console.WriteLine("Mijn Naam is Skiaaa ");
         }
@@ -26,7 +26,7 @@ namespace DierenInDeZoo
             Console.WriteLine("knor knor");
         }
 
-        public override void NaamDier()
+        public override void PrintNaamDier()
         {
             Console.WriteLine("Mijn Naam is Alfred het varken ");
         }
@@ -38,7 +38,7 @@ namespace DierenInDeZoo
         {
             Console.WriteLine("moeeee");
         }
-        public override void NaamDier()
+        public override void PrintNaamDier()
         {
             Console.WriteLine("Mijn Naam is Skroe de koe");
         }
@@ -51,7 +51,7 @@ namespace DierenInDeZoo
             Console.WriteLine("skrkrksrkrkrskrks");
         }
 
-        public override void NaamDier()
+        public override void PrintNaamDier()
         {
             Console.WriteLine("Mijn Naam is Pol de mol");
         }
@@ -67,7 +67,7 @@ namespace DierenInDeZoo
 
             p.Gewicht = 102.2;
             p.MaakGeluid();
-            p.NaamDier();
+            p.PrintNaamDier();
             Console.WriteLine("Ik weeg {0}", p.Gewicht);
             Console.WriteLine(k.GewichtBeschrijving);
             p.PrintBeschrijving();
@@ -75,12 +75,12 @@ namespace DierenInDeZoo
 
             v.Gewicht = 67.3;
             v.MaakGeluid();
-            v.NaamDier();
+            v.PrintNaamDier();
             Console.WriteLine("Ik weeg {0}", v.Gewicht);
 
-            k.NaamDier();
+            k.PrintNaamDier();
 
-            m.NaamDier();
+            m.PrintNaamDier();
         }
     }
 }
